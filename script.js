@@ -22,9 +22,11 @@ const card = document.getElementById("card");
 const btn = document.getElementById("btn");
 const btn1=document.querySelector("#btn2");
 const bdayCont=document.querySelector(".bday");
+const h=document.querySelector(".heading");
 const bday = document.querySelector(".bday-value");
 
 let getPokeData = () => {
+    h.style.display="none";
     head.style.display="none";
     card.style.display = "flex";
     bdayCont.style.display="none";
