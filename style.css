@@ -119,6 +119,15 @@ html {
         width: 60%;
         height: 60rem;
       }
+      .bday input {
+        padding: 2rem 4rem;
+        border: none;
+        border-radius: 15px;
+        width: 80%;
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        outline: none;
+      }
 }
 
 /* CSS */
